@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text"  id="searchInput" value="" placeholder="Enter city name">
+            <span class="material-symbols-outlined location">
+              location_on
+              </span>
+            <button id="searchButton" class="material-symbols-outlined search">Search</button>
+        </div>
+        <div class="temp-container">
+            <div class="weather-icon">
+                <img src="image/cloud.svg" class="weather-img">
+            </div>
+              <div class="current-temp">
+                  <div class="temp">14</div>
+                  <div class="derg">°C</div>
+              </div>
+                <div class="description">
+                    Clear sky
+                </div>
+                <div class="location-response">
+                  <span class="material-symbols-outlined location-response-icon">
+                    location_on
+                    </span>
+                    <div class="location-response-name">London, UK</div>
+                </div>
+                <div class="weather-details">
+                  <span class="material-symbols-outlined">
+                    air
+                    </span>
+                    <p>Wind Speed:</p>
+                    <div class="wind-speed">4.12m/s</div>
+                </div>
+        </div>
+
+          <div class="error-container">
+            <div>Not Found!</div>
+            <img src="image/error-404.png">
+          </div>
+    </div>
+
+   
+    <script src="index.js"></script>
+</body>
+</html>
+
