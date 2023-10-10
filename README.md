@@ -1,1 +1,1 @@
-Проект доступен по ссылке: 
+Проект доступен по ссылке: https://alexandrpodenkov.github.io/weather-app/
